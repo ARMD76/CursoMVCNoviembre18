@@ -22,6 +22,7 @@ namespace Inventario
         public System.DateTime fechaCreacion { get; set; }
         public int idCategoria { get; set; }
         public bool esActivo { get; set; }
+        public string unidadMedida { get; set; }
     
         public virtual Categorias Categorias { get; set; }
     }
